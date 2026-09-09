@@ -1,0 +1,29 @@
+# Steal An Egg Wiki — Full Site Summary
+
+Steal An Egg Wiki is an independent fan-made guide to the Roblox experience Steal An Egg by and Collect Rare Pets. The exact Place ID is 107778070777162. This identifier distinguishes the covered experience from similarly named Roblox games.
+
+The core gameplay loop is: steal an egg, escape, return it to the player's pen, place and hatch the egg, receive a pet, earn income, buy upgrades, train speed and attempt better eggs. Eggs, pets and progression have separate topic pages so every major search intent has one canonical destination.
+
+The homepage at https://steal-an-egg.github.io/ is the central game entity and topic hub. Supporting pages cover eggs, rare eggs, a browser-based spawn predictor, best-egg rankings, Stag Egg, Parasite Egg, rarities, pets, Ice Dragon, Koi, Dodo, best-pet rankings, a beginner guide, progression, speed and treadmill training, codes, updates, the Sakura Event, the Monster Update and the What Happened status page.
+
+The Spawn Predictor at https://steal-an-egg.github.io/eggs/spawn-predictor/ calculates a local countdown from the last observed spawn and custom interval entered by the player. It does not connect to a Roblox server and does not claim an official spawn schedule.
+
+Best Eggs at https://steal-an-egg.github.io/eggs/best-eggs/ and Best Pets at https://steal-an-egg.github.io/pets/best-pets/ provide verification-first tier frameworks. Rankings remain unfilled until original gameplay confirms names, rarity, source, income, difficulty and progression value.
+
+The Sakura Event guide at https://steal-an-egg.github.io/updates/sakura-event/ organizes Cherry Blossom, Great Bloom, Crane and Sakura Incubator queries. Unknown mechanics, costs, timers, rewards, odds and dates remain marked for in-game verification.
+
+The Monster Update guide at https://steal-an-egg.github.io/updates/monster-update/ covers Titan Temple, Hungry Monster infected-egg feeding, Monster Egg store content, Monster Chest rewards and Mutant Shark. Exact odds and incomes without local captures stay labeled.
+
+What Happened to Steal An Egg at https://steal-an-egg.github.io/updates/what-happened-to-steal-an-egg/ answers removal, deletion and return queries with dated listing checks. Exact Roblox game-specific enforcement wording remains marked when not officially confirmed.
+
+Rarities at https://steal-an-egg.github.io/rarities/ explains the Common-to-Divine rarity order and how egg rarity differs from pet rarity without inventing hatch percentages.
+
+Stag Egg at https://steal-an-egg.github.io/eggs/stag-egg/ is the Secret Stag entity page for Cherry Blossom location, how-to-get guidance, rarity context and hatch expectations.
+
+Ice Dragon at https://steal-an-egg.github.io/pets/ice-dragon/, Koi at https://steal-an-egg.github.io/pets/koi/, and Dodo at https://steal-an-egg.github.io/pets/dodo/ are focused pet entity pages. They cover the individual source, rarity, income, and progression questions while marking unsupported fields as pending verification.
+
+Parasite Egg at https://steal-an-egg.github.io/eggs/parasite-egg/ is a focused egg entity page. It distinguishes the egg-specific source, rarity, hatch, and value questions from the broader Monster Update overview, and does not claim an unverified Monster Chest relationship.
+
+Data accuracy is a core editorial rule. Exact spawn rates, prices, pet income, rarity, speed requirements, treadmill levels, mutation odds, codes and update dates are not published without verification. Empty database fields are labeled “To be verified” instead of being filled with estimates.
+
+Steal An Egg Wiki is not affiliated with Roblox Corporation or and Collect Rare Pets. All related trademarks belong to their respective owners.

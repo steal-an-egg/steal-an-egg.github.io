@@ -1,0 +1,17 @@
+{
+    "name": "Steal An Egg Wiki",
+    "short_name": "Egg Wiki",
+    "icons": [
+      {
+        "src": "/assets/img/steal-an-egg-logo.png",
+        "sizes": "241x241",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "start_url": "https://steal-an-egg.github.io/",
+    "theme_color": "#1a1a2e",
+    "background_color": "#1a1a2e",
+    "display": "standalone",
+    "description": "An independent Steal An Egg Roblox wiki covering eggs, pets, progression, codes and updates."
+  }

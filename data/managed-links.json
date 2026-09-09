@@ -1,0 +1,53 @@
+{
+  "links": [
+    {
+      "id": "1779288052765-qy2lms",
+      "title": "Gemini Omni Flash",
+      "url": "https://www.omniflashgenerator.com/",
+      "placement": "footer_legal",
+      "createdAt": "2026-05-20T14:40:52.765Z"
+    },
+    {
+      "id": "1776491154333-rao58v",
+      "title": "Veo 3.1 Lite AI Video Generator",
+      "url": "https://veo31lite.github.io/",
+      "placement": "footer_legal",
+      "createdAt": "2026-04-18T05:45:54.333Z"
+    },
+    {
+      "id": "1776491137060-8pepuu",
+      "title": "GPT Image 2 AI Image Generator",
+      "url": "https://gptimage2.github.io/",
+      "placement": "footer_legal",
+      "createdAt": "2026-04-18T05:45:37.060Z"
+    },
+    {
+      "id": "1776491116257-q0fxmp",
+      "title": "HappyHorse Prompts",
+      "url": "https://www.happyhorseprompts.com/",
+      "placement": "footer_legal",
+      "createdAt": "2026-04-18T05:45:16.257Z"
+    },
+    {
+      "id": "1776491099112-7savj4",
+      "title": "Happy Horse AI video generator",
+      "url": "https://ai-happyhorse.github.io/",
+      "placement": "footer_legal",
+      "createdAt": "2026-04-18T05:44:59.112Z"
+    },
+    {
+      "id": "1774083055103-vqd0u1",
+      "title": "aicovea",
+      "url": "https://www.aicovea.com/",
+      "placement": "footer_legal",
+      "createdAt": "2026-03-21T08:50:55.103Z"
+    },
+    {
+      "id": "hair-color-changer",
+      "title": "Hair Color Changer",
+      "url": "https://www.aihaircolorchanger.pro/en",
+      "placement": "footer_legal",
+      "createdAt": "2026-03-21T00:01:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Steal An Egg Wiki illustration</title>
+  <desc id="desc">A glowing decorated egg beside a path that represents stealing, hatching and progressing.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#292950"/><stop offset="1" stop-color="#141429"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#b92335" stop-opacity=".55"/><stop offset="1" stop-color="#b92335" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9df"/><stop offset="1" stop-color="#dac99d"/></linearGradient>
+  </defs>
+  <rect width="720" height="520" rx="36" fill="url(#panel)"/>
+  <circle cx="362" cy="250" r="220" fill="url(#glow)"/>
+  <path d="M65 413c105-78 194-53 274-6 92 55 177 44 315-30" fill="none" stroke="#74748f" stroke-width="26" stroke-linecap="round" opacity=".45"/>
+  <ellipse cx="357" cy="400" rx="160" ry="34" fill="#080816" opacity=".55"/>
+  <ellipse cx="357" cy="260" rx="142" ry="184" fill="url(#shell)" stroke="#c8b57d" stroke-width="10"/>
+  <path d="M244 211c37-30 74-17 108 12 37 31 76 27 116-6" fill="none" stroke="#b92335" stroke-width="27" stroke-linecap="round"/>
+  <path d="M246 318c38-25 74-17 108 9 35 27 72 25 112-4" fill="none" stroke="#b92335" stroke-width="21" stroke-linecap="round"/>
+  <path d="M331 104l26-35 26 35" fill="none" stroke="#f1d15f" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="277" cy="274" r="12" fill="#b92335"/><circle cx="433" cy="274" r="12" fill="#b92335"/>
+  <g fill="#f1d15f"><circle cx="118" cy="126" r="9"/><circle cx="590" cy="105" r="7"/><circle cx="615" cy="244" r="10"/><circle cx="103" cy="286" r="6"/></g>
+  <g fill="none" stroke="#f1d15f" stroke-linecap="round"><path d="M118 99v54M91 126h54" stroke-width="5"/><path d="M590 86v38M571 105h38" stroke-width="4"/></g>
+</svg>

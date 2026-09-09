@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://steal-an-egg.github.io/sitemap.xml
