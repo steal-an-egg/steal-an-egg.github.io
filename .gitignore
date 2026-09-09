@@ -41,3 +41,10 @@ next-env.d.ts
 
 # Shareable project archives created by `npm run package`
 /release/
+
+# Internal docs and editor artifacts
+.idea/
+.codebuddy/
+BING_INDEXNOW_README.md
+GOOGLEBOT_README.md
+NEW_GAME_PAGE_GUIDE.md
