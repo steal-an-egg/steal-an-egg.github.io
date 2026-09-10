@@ -68,6 +68,7 @@ export function CoreSeoPage({
   showVerificationNotice = true,
   screenshotHeading = "Screenshot slots ready for verified captures",
   screenshotDescription = "Each frame names the original in-game evidence still needed.",
+  extraSchema = [],
 }: {
   title: string;
   description: string;
@@ -89,6 +90,7 @@ export function CoreSeoPage({
   showVerificationNotice?: boolean;
   screenshotHeading?: string;
   screenshotDescription?: string;
+  extraSchema?: Record<string, unknown>[];
 }) {
   const breadcrumbItems = [
     { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
@@ -135,6 +137,8 @@ export function CoreSeoPage({
       })),
     });
   }
+
+  graph.push(...extraSchema);
 
   return (
     <>

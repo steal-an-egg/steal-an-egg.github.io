@@ -22,6 +22,7 @@ const navItems: NavItem[] = [
       { label: "Rare Eggs", href: "/eggs/rare-eggs/" },
       { label: "Spawn Predictor", href: "/eggs/spawn-predictor/" },
       { label: "Best Eggs", href: "/eggs/best-eggs/" },
+      { label: "Divine Eggs", href: "/eggs/divine-eggs/" },
       { label: "Stag Egg", href: "/eggs/stag-egg/" },
       { label: "Parasite Egg", href: "/eggs/parasite-egg/" },
     ],
@@ -32,12 +33,14 @@ const navItems: NavItem[] = [
     children: [
       { label: "All Pets", href: "/pets/" },
       { label: "Best Pets", href: "/pets/best-pets/" },
+      { label: "Rarest Pets", href: "/pets/rarest-pets/" },
       { label: "Ice Dragon", href: "/pets/ice-dragon/" },
       { label: "Koi", href: "/pets/koi/" },
       { label: "Dodo", href: "/pets/dodo/" },
     ],
   },
   { label: "Guide", href: "/guide/" },
+  { label: "Calculator", href: "/calculator/" },
   {
     label: "Progression",
     href: "/progression/",

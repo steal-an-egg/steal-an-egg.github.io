@@ -6,13 +6,16 @@
 
 - [Homepage](https://steal-an-egg.github.io/): Game entity, gameplay loop and wiki topic hub
 - [Eggs](https://steal-an-egg.github.io/eggs/): Egg database and mechanics
+- [Divine Eggs](https://steal-an-egg.github.io/eggs/divine-eggs/): Divine Egg paths, rarity context and how-to-get guidance
 - [Rare Eggs](https://steal-an-egg.github.io/eggs/rare-eggs/): Rare and secret egg evidence
 - [Spawn Predictor](https://steal-an-egg.github.io/eggs/spawn-predictor/): Browser timer for user-entered egg spawn observations and next-spawn estimates
 - [Best Eggs](https://steal-an-egg.github.io/eggs/best-eggs/): Verification-first egg tier list, risk and progression rankings
 - [Pets](https://steal-an-egg.github.io/pets/): Pet rarity and income database
+- [Rarest Pets](https://steal-an-egg.github.io/pets/rarest-pets/): Highest verified rarity pets, acquisition context and rarity-versus-value guide
 - [Best Pets](https://steal-an-egg.github.io/pets/best-pets/): Verification-first pet tier list, income and progression rankings
 - [Guide](https://steal-an-egg.github.io/guide/): Beginner gameplay guide
 - [Progression](https://steal-an-egg.github.io/progression/): Upgrades, pens, trails and earnings
+- [Steal An Egg Calculator](https://steal-an-egg.github.io/calculator/): Local income, upgrade-goal and egg-run planning calculator
 - [Speed & Treadmill](https://steal-an-egg.github.io/progression/speed-treadmill/): Movement progression
 - [Codes](https://steal-an-egg.github.io/codes/): Verified active and expired code status
 - [Updates](https://steal-an-egg.github.io/updates/): Verified game update log

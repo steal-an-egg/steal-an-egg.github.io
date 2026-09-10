@@ -4,6 +4,12 @@ Steal An Egg Wiki is an independent fan-made guide to the Roblox experience Stea
 
 The core gameplay loop is: steal an egg, escape, return it to the player's pen, place and hatch the egg, receive a pet, earn income, buy upgrades, train speed and attempt better eggs. Eggs, pets and progression have separate topic pages so every major search intent has one canonical destination.
 
+Divine Eggs at https://steal-an-egg.github.io/eggs/divine-eggs/ explains the Divine rarity path without claiming that every source egg has a Divine object label. It separates verified source-to-pet links from unknown egg labels, odds, and spawn rules.
+
+Rarest Pets at https://steal-an-egg.github.io/pets/rarest-pets/ lists pets confirmed in the highest named rarity tier without inventing an absolute rarity ranking or treating rarity as a pet-income ranking.
+
+The Steal An Egg Calculator at https://steal-an-egg.github.io/calculator/ performs local browser calculations from player-entered cash, income, upgrade-cost, session, and run-time values. It does not read Roblox servers or assume hidden game formulas.
+
 The homepage at https://steal-an-egg.github.io/ is the central game entity and topic hub. Supporting pages cover eggs, rare eggs, a browser-based spawn predictor, best-egg rankings, Stag Egg, Parasite Egg, rarities, pets, Ice Dragon, Koi, Dodo, best-pet rankings, a beginner guide, progression, speed and treadmill training, codes, updates, the Sakura Event, the Monster Update and the What Happened status page.
 
 The Spawn Predictor at https://steal-an-egg.github.io/eggs/spawn-predictor/ calculates a local countdown from the last observed spawn and custom interval entered by the player. It does not connect to a Roblox server and does not claim an official spawn schedule.

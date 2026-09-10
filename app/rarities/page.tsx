@@ -175,6 +175,7 @@ const sections: CoreSection[] = [
           "Unicorn and Kitsune are the Divine pets most consistently named across late-August indexes, with Nightflame also reported as Divine in Titan Temple Monster Update lists.",
           "Exact Divine hatch odds and every Divine egg spawn rule remain unverified on this wiki. Do not trust a random percentage pasted without UI evidence.",
         ],
+        links: [{ href: "/eggs/divine-eggs/", label: "Explore Divine Eggs in Steal An Egg" }],
       },
     ],
   },

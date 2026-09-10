@@ -76,6 +76,7 @@ const sections: CoreSection[] = [
           "The final pet rarity values will use the wording shown by Steal An Egg. Color, visual complexity and how often one player hatches a pet are not enough to assign a tier without a readable label or repeated evidence.",
           "Rarity and pet income remain separate columns. This prevents a high-tier classification from becoming an unsupported claim that the same pet always makes the most money.",
         ],
+        links: [{ href: "/pets/rarest-pets/", label: "See the rarest pets in Steal An Egg" }],
       },
       {
         title: "Rare and High-Tier Pets",

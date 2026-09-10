@@ -29,7 +29,7 @@ const sections: CoreSection[] = [
     subsections: [
       { title: "Build Reliable Pet Income", paragraphs: ["A stable income base keeps Steal An Egg progression moving between egg runs. Favor a lineup that produces dependable money, then use confirmed in-game values to compare pets. The pet database will add exact rates only after each figure can be checked directly."], links: [{ href: "/pets/", label: "Compare verified Steal An Egg pets" }] },
       { title: "When to Replace Lower-Income Pets", paragraphs: ["Replace a lower-income pet when a verified alternative improves your lineup without emptying the resources needed for the next step. Keep useful earners active until a real replacement is ready; rarity alone does not prove a better income result."] },
-      { title: "How to Reinvest Your Money", paragraphs: ["Spend money where it creates the clearest return: steadier pet income, a more practical egg route or a confirmed capacity improvement. Preserve a buffer when the next upgrade is uncertain, and avoid assuming that the most expensive option is automatically efficient."] },
+      { title: "How to Reinvest Your Money", paragraphs: ["Spend money where it creates the clearest return: steadier pet income, a more practical egg route or a confirmed capacity improvement. Preserve a buffer when the next upgrade is uncertain, and avoid assuming that the most expensive option is automatically efficient."], links: [{ href: "/calculator/", label: "Plan an upgrade with the Steal An Egg Calculator" }] },
     ],
   },
   {
