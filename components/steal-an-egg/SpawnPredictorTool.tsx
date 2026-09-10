@@ -1,15 +1,53 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Clock3, RotateCcw, TimerReset } from "lucide-react";
+import { Bell, Clock3, RotateCcw, TimerReset } from "lucide-react";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
 
 const STORAGE_KEY = "steal-an-egg-spawn-predictor";
+const RARE_ALERT_FEEDBACK_STORAGE_KEY = "rare_egg_alert_499_feedback";
+
+type FeedbackState = "yes" | "no" | null;
 
 type StoredSettings = {
   lastObserved: string;
   minutes: string;
   seconds: string;
 };
+
+const RARE_ALERT_EVENT_PARAMS = {
+  page_path: "/eggs/spawn-predictor/",
+  experiment: "rare_egg_alert_one_time_499",
+  offer_price: 4.99,
+  currency: "USD",
+  pricing_model: "one_time",
+};
+
+function trackGa4Event(eventName: string) {
+  if (typeof window === "undefined") return;
+
+  const gtag = (
+    window as Window & {
+      gtag?: (
+        command: "event",
+        name: string,
+        params: Record<string, string | number>,
+      ) => void;
+    }
+  ).gtag;
+
+  if (typeof gtag === "function") {
+    gtag("event", eventName, RARE_ALERT_EVENT_PARAMS);
+  }
+}
 
 function toLocalInputValue(date: Date) {
   const offset = date.getTimezoneOffset() * 60_000;
@@ -31,6 +69,8 @@ export function SpawnPredictorTool() {
   const [targetTime, setTargetTime] = useState<number | null>(null);
   const [now, setNow] = useState(() => Date.now());
   const [message, setMessage] = useState("Enter an interval observed in your server to create an estimate.");
+  const [isRareAlertDialogOpen, setIsRareAlertDialogOpen] = useState(false);
+  const [rareAlertFeedback, setRareAlertFeedback] = useState<FeedbackState>(null);
 
   useEffect(() => {
     const restoreTimer = window.setTimeout(() => {
@@ -56,6 +96,16 @@ export function SpawnPredictorTool() {
     const timer = window.setInterval(() => setNow(Date.now()), 1000);
     return () => window.clearInterval(timer);
   }, [targetTime]);
+
+  useEffect(() => {
+    const restoreFeedback = window.setTimeout(() => {
+      const storedFeedback = window.localStorage.getItem(RARE_ALERT_FEEDBACK_STORAGE_KEY);
+      if (storedFeedback === "yes" || storedFeedback === "no") {
+        setRareAlertFeedback(storedFeedback);
+      }
+    }, 0);
+    return () => window.clearTimeout(restoreFeedback);
+  }, []);
 
   const countdown = useMemo(
     () => (targetTime === null ? "--:--:--" : formatCountdown(targetTime - now)),
@@ -102,6 +152,24 @@ export function SpawnPredictorTool() {
     setMinutes("5");
     setSeconds("0");
     setMessage("Five-minute rare-egg reference selected. Re-sync it to an alert or reset in your current server.");
+  }
+
+  function openRareAlertDialog() {
+    const storedFeedback = window.localStorage.getItem(RARE_ALERT_FEEDBACK_STORAGE_KEY);
+    if (storedFeedback === "yes" || storedFeedback === "no") {
+      setRareAlertFeedback(storedFeedback);
+      return;
+    }
+
+    trackGa4Event("rare_alert_cta_click");
+    setRareAlertFeedback(null);
+    setIsRareAlertDialogOpen(true);
+  }
+
+  function respondToRareAlertOffer(response: "yes" | "no") {
+    trackGa4Event(response === "yes" ? "rare_alert_pay_yes" : "rare_alert_pay_no");
+    window.localStorage.setItem(RARE_ALERT_FEEDBACK_STORAGE_KEY, response);
+    setRareAlertFeedback(response);
   }
 
   return (
@@ -192,6 +260,57 @@ export function SpawnPredictorTool() {
       <p className="mt-7 rounded-xl border border-secondary/30 bg-surface-accent px-4 py-3 text-sm font-semibold leading-6 text-foreground">
         This predictor is not connected to your Roblox server. It estimates timing from the information you enter.
       </p>
+
+      <div className="mt-5 rounded-xl border border-primary/20 bg-background/60 p-4 md:p-5">
+        <p className="text-xs font-bold uppercase tracking-[0.16em] text-primary">Rare Egg Alerts</p>
+        <div className="mt-2 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="font-bold text-foreground">Want real-time Rare Egg Alerts?</p>
+            <p className="mt-1 text-sm leading-6 text-muted-foreground">Get notified about Divine, Eternal and Secret Egg opportunities without constantly checking the timer.</p>
+          </div>
+          {rareAlertFeedback ? (
+            <button type="button" disabled className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-muted px-4 py-2.5 text-sm font-bold text-muted-foreground">
+              ✓ Feedback Recorded
+            </button>
+          ) : (
+            <button type="button" onClick={openRareAlertDialog} className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-bold text-primary-foreground transition hover:bg-primary/85">
+              <Bell className="h-4 w-4" aria-hidden="true" /> Get Rare Egg Alerts
+            </button>
+          )}
+        </div>
+        {rareAlertFeedback && <p className="mt-3 text-xs text-muted-foreground">Thanks for helping us decide what to build next.</p>}
+      </div>
+
+      <AlertDialog open={isRareAlertDialogOpen} onOpenChange={setIsRareAlertDialogOpen}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle asChild>
+              <div>{rareAlertFeedback ? "Thanks for your feedback!" : "Would you pay $4.99 once for Rare Egg Alerts?"}</div>
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              {rareAlertFeedback === "yes"
+                ? "We’ve recorded that you’d consider paying a one-time $4.99 for Rare Egg Alerts."
+                : rareAlertFeedback === "no"
+                  ? "We’ve recorded that you’d prefer to use Rare Egg Alerts for free."
+                  : "If reliable Rare Egg Alerts were available for Divine, Eternal and Secret Egg opportunities, would you pay a one-time $4.99 to unlock them?"}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            {rareAlertFeedback ? (
+              <AlertDialogAction>Close</AlertDialogAction>
+            ) : (
+              <>
+                <button type="button" onClick={() => respondToRareAlertOffer("no")} className="mt-2 inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground sm:mt-0">
+                  No, I&apos;d only use it free
+                </button>
+                <button type="button" onClick={() => respondToRareAlertOffer("yes")} className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/85">
+                  Yes, I&apos;d pay $4.99 once
+                </button>
+              </>
+            )}
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </section>
   );
 }
