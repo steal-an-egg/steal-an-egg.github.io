@@ -28,6 +28,10 @@ Stag Egg at https://steal-an-egg.github.io/eggs/stag-egg/ is the Secret Stag ent
 
 Ice Dragon at https://steal-an-egg.github.io/pets/ice-dragon/, Koi at https://steal-an-egg.github.io/pets/koi/, and Dodo at https://steal-an-egg.github.io/pets/dodo/ are focused pet entity pages. They cover the individual source, rarity, income, and progression questions while marking unsupported fields as pending verification.
 
+Divine Unicorn at https://steal-an-egg.github.io/pets/unicorn/ is the focused entity page for the Unicorn search intent. It separates the documented Cosmic Egg source path, Divine rarity, and reported standard-income baseline from changeable live-game conditions, hatch odds, and route requirements.
+
+Divine Fusion Guide at https://steal-an-egg.github.io/guide/divine-fusion/ is the focused mechanic page for Divine Fusion queries. It explains how to check current access, requirements, interface behavior, and outcomes without presenting an unverified shrine location, recipe, cost, success rate, or reward table as fact.
+
 Parasite Egg at https://steal-an-egg.github.io/eggs/parasite-egg/ is a focused egg entity page. It distinguishes the egg-specific source, rarity, hatch, and value questions from the broader Monster Update overview, and does not claim an unverified Monster Chest relationship.
 
 Data accuracy is a core editorial rule. Exact spawn rates, prices, pet income, rarity, speed requirements, treadmill levels, mutation odds, codes and update dates are not published without verification. Empty database fields are labeled “To be verified” instead of being filled with estimates.

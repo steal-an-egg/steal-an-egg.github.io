@@ -37,9 +37,17 @@ const navItems: NavItem[] = [
       { label: "Ice Dragon", href: "/pets/ice-dragon/" },
       { label: "Koi", href: "/pets/koi/" },
       { label: "Dodo", href: "/pets/dodo/" },
+      { label: "Unicorn", href: "/pets/unicorn/" },
     ],
   },
-  { label: "Guide", href: "/guide/" },
+  {
+    label: "Guide",
+    href: "/guide/",
+    children: [
+      { label: "Beginner Guide", href: "/guide/" },
+      { label: "Divine Fusion", href: "/guide/divine-fusion/" },
+    ],
+  },
   { label: "Calculator", href: "/calculator/" },
   {
     label: "Progression",

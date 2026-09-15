@@ -27,7 +27,9 @@
 - [Ice Dragon](https://steal-an-egg.github.io/pets/ice-dragon/): Ice Dragon source, rarity, pet value and verification status
 - [Koi](https://steal-an-egg.github.io/pets/koi/): Koi and Koi Egg search-intent guide with verification-first source details
 - [Dodo](https://steal-an-egg.github.io/pets/dodo/): Dodo pet guide and Dodo Egg terminology clarification
+- [Divine Unicorn](https://steal-an-egg.github.io/pets/unicorn/): Divine Unicorn source, rarity, standard-income context and progression guide
 - [Parasite Egg](https://steal-an-egg.github.io/eggs/parasite-egg/): Parasite Egg source, rarity, hatch and Monster Update evidence status
+- [Divine Fusion Guide](https://steal-an-egg.github.io/guide/divine-fusion/): Divine Fusion access, requirements, safe-use checks and troubleshooting guide
 
 ## Accuracy policy
 

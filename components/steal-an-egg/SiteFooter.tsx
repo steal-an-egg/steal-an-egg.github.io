@@ -21,6 +21,8 @@ const wikiLinks = [
   ["Ice Dragon", "/pets/ice-dragon/"],
   ["Koi", "/pets/koi/"],
   ["Dodo", "/pets/dodo/"],
+  ["Unicorn", "/pets/unicorn/"],
+  ["Divine Fusion", "/guide/divine-fusion/"],
   ["Codes", "/codes/"],
   ["Updates", "/updates/"],
   ["Sakura Event", "/updates/sakura-event/"],
