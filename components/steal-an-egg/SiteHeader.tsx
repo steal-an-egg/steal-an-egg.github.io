@@ -23,6 +23,7 @@ const navItems: NavItem[] = [
       { label: "Spawn Predictor", href: "/eggs/spawn-predictor/" },
       { label: "Best Eggs", href: "/eggs/best-eggs/" },
       { label: "Divine Eggs", href: "/eggs/divine-eggs/" },
+      { label: "Cosmic Egg", href: "/eggs/cosmic-egg/" },
       { label: "Stag Egg", href: "/eggs/stag-egg/" },
       { label: "Parasite Egg", href: "/eggs/parasite-egg/" },
     ],
@@ -46,6 +47,7 @@ const navItems: NavItem[] = [
     children: [
       { label: "Beginner Guide", href: "/guide/" },
       { label: "Divine Fusion", href: "/guide/divine-fusion/" },
+      { label: "Hacks & Glitches", href: "/guide/hacks-glitches/" },
     ],
   },
   { label: "Calculator", href: "/calculator/" },

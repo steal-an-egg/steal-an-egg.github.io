@@ -19,6 +19,7 @@ const sections: CoreSection[] = [
         paragraphs: [
           "Among the best eggs in Steal An Egg, Cosmic Egg leads because its pool reports Unicorn at $1B/s and Eternal Lunar Dragon at $250M/s. The 700M Speed route still requires a consistent return.",
         ],
+        links: [{ href: "/eggs/cosmic-egg/", label: "Steal An Egg Cosmic Egg" }],
       },
       {
         title: "A Tier – Excellent Eggs",

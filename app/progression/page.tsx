@@ -11,7 +11,7 @@ const sections: CoreSection[] = [
     title: "How Progression Works in Steal An Egg",
     intro: ["Steal An Egg progression is a cycle of safer egg runs, stronger income and carefully timed upgrades. Each improvement should solve a current bottleneck instead of consuming money without making the next run easier."],
     subsections: [
-      { title: "The Main Progression Loop", paragraphs: ["Take an egg back to your pen, hatch the pet, collect its income and reinvest that money. Better resources then support harder routes. Repeating this loop is the clearest answer to how to progress in Steal An Egg without relying on unverified shortcuts."] },
+      { title: "The Main Progression Loop", paragraphs: ["Take an egg back to your pen, hatch the pet, collect its income and reinvest that money. Better resources then support harder routes. Repeating this loop is the clearest answer to how to progress in Steal An Egg without relying on unverified shortcuts."], links: [{ href: "/guide/hacks-glitches/", label: "Steal An Egg Hacks & Glitches" }] },
       { title: "Why Eggs, Pets and Speed Work Together", paragraphs: ["Eggs supply pets, pets build money and movement speed makes egg runs more manageable. Neglecting any part can slow the whole loop: income funds upgrades, while practical movement helps you return with the eggs that improve your collection."] },
       { title: "What You Should Upgrade First", paragraphs: ["Upgrade the system causing your immediate problem. Improve reliable pet income when money is slow, consider movement when routes feel unsafe, and expand a base or pen only when its verified effect supports your next goal. There is no confirmed universal upgrade order."] },
     ],

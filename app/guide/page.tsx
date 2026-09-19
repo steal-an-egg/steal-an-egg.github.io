@@ -52,6 +52,7 @@ const sections: CoreSection[] = [
       {
         title: "What to Do First",
         paragraphs: ["Confirm that you are playing Steal An Egg by and Collect Rare Pets, Place ID 107778070777162. Then learn the layout between an accessible egg and your base. Your first objective is a complete return and hatch, not a perfect collection or an unverified shortcut."],
+        links: [{ href: "/guide/hacks-glitches/", label: "Steal An Egg Hacks & Glitches" }],
       },
       {
         title: "Early-Game Priorities",

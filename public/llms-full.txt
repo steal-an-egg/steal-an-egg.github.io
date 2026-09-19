@@ -6,6 +6,8 @@ The core gameplay loop is: steal an egg, escape, return it to the player's pen, 
 
 Divine Eggs at https://steal-an-egg.github.io/eggs/divine-eggs/ explains the Divine rarity path without claiming that every source egg has a Divine object label. It separates verified source-to-pet links from unknown egg labels, odds, and spawn rules.
 
+Cosmic Egg at https://steal-an-egg.github.io/eggs/cosmic-egg/ is the focused Cosmic Egg and Cosmic Biome entity page. It covers verified source-to-pet coverage, how-to-get guidance, rarity context and hatch expectations without inventing nest coordinates, odds or a finished roster.
+
 Rarest Pets at https://steal-an-egg.github.io/pets/rarest-pets/ lists pets confirmed in the highest named rarity tier without inventing an absolute rarity ranking or treating rarity as a pet-income ranking.
 
 The Steal An Egg Calculator at https://steal-an-egg.github.io/calculator/ performs local browser calculations from player-entered cash, income, upgrade-cost, session, and run-time values. It does not read Roblox servers or assume hidden game formulas.
@@ -31,6 +33,8 @@ Ice Dragon at https://steal-an-egg.github.io/pets/ice-dragon/, Koi at https://st
 Divine Unicorn at https://steal-an-egg.github.io/pets/unicorn/ is the focused entity page for the Unicorn search intent. It separates the documented Cosmic Egg source path, Divine rarity, and reported standard-income baseline from changeable live-game conditions, hatch odds, and route requirements.
 
 Divine Fusion Guide at https://steal-an-egg.github.io/guide/divine-fusion/ is the focused mechanic page for Divine Fusion queries. It explains how to check current access, requirements, interface behavior, and outcomes without presenting an unverified shrine location, recipe, cost, success rate, or reward table as fact.
+
+Hacks & Glitches at https://steal-an-egg.github.io/guide/hacks-glitches/ covers reported, patched and unverified Steal An Egg hack or glitch claims. It emphasizes safer progression alternatives and does not provide scripts, executors, bypass steps or credential collection.
 
 Parasite Egg at https://steal-an-egg.github.io/eggs/parasite-egg/ is a focused egg entity page. It distinguishes the egg-specific source, rarity, hatch, and value questions from the broader Monster Update overview, and does not claim an unverified Monster Chest relationship.
 
