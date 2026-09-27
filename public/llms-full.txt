@@ -38,6 +38,12 @@ Hacks & Glitches at https://steal-an-egg.github.io/guide/hacks-glitches/ covers 
 
 Parasite Egg at https://steal-an-egg.github.io/eggs/parasite-egg/ is a focused egg entity page. It distinguishes the egg-specific source, rarity, hatch, and value questions from the broader Monster Update overview, and does not claim an unverified Monster Chest relationship.
 
+Divine Kitsune at https://steal-an-egg.github.io/pets/kitsune/ is the pet page for Kitsune searches. It keeps the documented Divine label separate from source, income, hatch chance, and route details that are not consistently documented.
+
+Nightflame at https://steal-an-egg.github.io/pets/nightflame/ is the pet page for Divine Nightflame. It uses the Titan Temple Monster Update lead without turning income, odds, or an official egg-object title into a fixed claim.
+
+Titan Temple Guide at https://steal-an-egg.github.io/guide/titan-temple/ covers the late Monster Update biome: where it sits, how access is checked, and which reported eggs and pets belong to the area. It does not replace the Monster Update overview or the Nightflame pet page.
+
 Data accuracy is a core editorial rule. Exact spawn rates, prices, pet income, rarity, speed requirements, treadmill levels, mutation odds, codes and update dates are not published without verification. Empty database fields are labeled “To be verified” instead of being filled with estimates.
 
 Steal An Egg Wiki is not affiliated with Roblox Corporation or and Collect Rare Pets. All related trademarks belong to their respective owners.

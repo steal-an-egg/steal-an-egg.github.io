@@ -39,6 +39,8 @@ const navItems: NavItem[] = [
       { label: "Koi", href: "/pets/koi/" },
       { label: "Dodo", href: "/pets/dodo/" },
       { label: "Unicorn", href: "/pets/unicorn/" },
+      { label: "Kitsune", href: "/pets/kitsune/" },
+      { label: "Nightflame", href: "/pets/nightflame/" },
     ],
   },
   {
@@ -48,6 +50,7 @@ const navItems: NavItem[] = [
       { label: "Beginner Guide", href: "/guide/" },
       { label: "Divine Fusion", href: "/guide/divine-fusion/" },
       { label: "Hacks & Glitches", href: "/guide/hacks-glitches/" },
+      { label: "Titan Temple", href: "/guide/titan-temple/" },
     ],
   },
   { label: "Calculator", href: "/calculator/" },
