@@ -35,6 +35,14 @@
 - [Divine Kitsune](https://steal-an-egg.github.io/pets/kitsune/): Divine Kitsune pet guide, rarity context, source limits and progression checks
 - [Nightflame](https://steal-an-egg.github.io/pets/nightflame/): Divine Nightflame pet guide, Titan Temple source context and income checks
 - [Titan Temple Guide](https://steal-an-egg.github.io/guide/titan-temple/): Titan Temple location, access, reported eggs and pets
+- [Enchanted Forest](https://steal-an-egg.github.io/updates/enchanted-forest/): Upcoming biome announcement, release status and what to check when it opens
+- [Dr. Scramble Boss](https://steal-an-egg.github.io/guide/dr-scramble-boss/): Boss encounter preparation, fight cues and reward verification
+- [Mutations](https://steal-an-egg.github.io/mutations/): Documented mutation names, routes and effect checks
+- [Mutation Consumable](https://steal-an-egg.github.io/guide/mutation-consumable/): Egg application steps and Fractured context
+- [Scrambled Mutation](https://steal-an-egg.github.io/mutations/scrambled/): Scrambled item route, application and effect limits
+- [Red Panda](https://steal-an-egg.github.io/pets/red-panda/): Cherry Blossom pet source and live rarity checks
+- [Skeleton Horse](https://steal-an-egg.github.io/pets/skeleton-horse/): Angels & Demons pet source and progression checks
+- [World Burner](https://steal-an-egg.github.io/pets/world-burner/): Angels & Demons pet source and value checks
 
 ## Accuracy policy
 

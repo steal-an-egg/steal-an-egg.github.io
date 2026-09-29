@@ -41,6 +41,9 @@ const navItems: NavItem[] = [
       { label: "Unicorn", href: "/pets/unicorn/" },
       { label: "Kitsune", href: "/pets/kitsune/" },
       { label: "Nightflame", href: "/pets/nightflame/" },
+      { label: "Red Panda", href: "/pets/red-panda/" },
+      { label: "Skeleton Horse", href: "/pets/skeleton-horse/" },
+      { label: "World Burner", href: "/pets/world-burner/" },
     ],
   },
   {
@@ -51,6 +54,16 @@ const navItems: NavItem[] = [
       { label: "Divine Fusion", href: "/guide/divine-fusion/" },
       { label: "Hacks & Glitches", href: "/guide/hacks-glitches/" },
       { label: "Titan Temple", href: "/guide/titan-temple/" },
+      { label: "Dr. Scramble Boss", href: "/guide/dr-scramble-boss/" },
+      { label: "Mutation Consumable", href: "/guide/mutation-consumable/" },
+    ],
+  },
+  {
+    label: "Mutations",
+    href: "/mutations/",
+    children: [
+      { label: "All Mutations", href: "/mutations/" },
+      { label: "Scrambled Mutation", href: "/mutations/scrambled/" },
     ],
   },
   { label: "Calculator", href: "/calculator/" },
@@ -71,6 +84,7 @@ const navItems: NavItem[] = [
       { label: "Sakura Event", href: "/updates/sakura-event/" },
       { label: "Monster Update", href: "/updates/monster-update/" },
       { label: "What Happened?", href: "/updates/what-happened-to-steal-an-egg/" },
+      { label: "Enchanted Forest", href: "/updates/enchanted-forest/" },
     ],
   },
   { label: "Rarities", href: "/rarities/" },
@@ -97,7 +111,7 @@ export function SiteHeader() {
           <span className="text-base sm:text-lg">Steal An Egg Wiki</span>
         </Link>
 
-        <div className="hidden items-center gap-1 md:flex">
+        <div className="hidden items-center gap-1 xl:flex">
           {navItems.map((item) => {
             const active = pathname === item.href || pathname.startsWith(item.href);
             if (!item.children) {
@@ -148,7 +162,7 @@ export function SiteHeader() {
 
         <button
           type="button"
-          className="grid h-10 w-10 place-items-center rounded-md hover:bg-surface-accent md:hidden"
+          className="grid h-10 w-10 place-items-center rounded-md hover:bg-surface-accent xl:hidden"
           onClick={() => setOpen((value) => !value)}
           aria-expanded={open}
           aria-controls="mobile-navigation"
@@ -159,7 +173,7 @@ export function SiteHeader() {
       </nav>
 
       {open ? (
-        <div id="mobile-navigation" className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-border bg-background px-4 py-4 md:hidden">
+        <div id="mobile-navigation" className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-border bg-background px-4 py-4 xl:hidden">
           <div className="container mx-auto grid gap-1">
             {navItems.map((item) => {
               const sectionOpen = Boolean(mobileOpen[item.label]);

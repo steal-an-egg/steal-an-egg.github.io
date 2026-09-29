@@ -33,6 +33,14 @@ const wikiLinks = [
   ["Sakura Event", "/updates/sakura-event/"],
   ["Monster Update", "/updates/monster-update/"],
   ["What Happened to Steal An Egg?", "/updates/what-happened-to-steal-an-egg/"],
+  ["Enchanted Forest", "/updates/enchanted-forest/"],
+  ["Dr. Scramble Boss", "/guide/dr-scramble-boss/"],
+  ["Mutations", "/mutations/"],
+  ["Mutation Consumable", "/guide/mutation-consumable/"],
+  ["Scrambled Mutation", "/mutations/scrambled/"],
+  ["Red Panda", "/pets/red-panda/"],
+  ["Skeleton Horse", "/pets/skeleton-horse/"],
+  ["World Burner", "/pets/world-burner/"],
 ];
 
 export function SiteFooter() {

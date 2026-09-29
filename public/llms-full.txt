@@ -44,6 +44,14 @@ Nightflame at https://steal-an-egg.github.io/pets/nightflame/ is the pet page fo
 
 Titan Temple Guide at https://steal-an-egg.github.io/guide/titan-temple/ covers the late Monster Update biome: where it sits, how access is checked, and which reported eggs and pets belong to the area. It does not replace the Monster Update overview or the Nightflame pet page.
 
+Enchanted Forest at https://steal-an-egg.github.io/updates/enchanted-forest/ covers the announced future biome, release status, and checks for access, eggs, and pets once gameplay is live.
+
+Dr. Scramble Boss at https://steal-an-egg.github.io/guide/dr-scramble-boss/ focuses on finding and completing the boss encounter, with fight and reward details tied to current gameplay rather than fixed undocumented rates.
+
+Mutations at https://steal-an-egg.github.io/mutations/ is the broad mutation hub. The Mutation Consumable guide at https://steal-an-egg.github.io/guide/mutation-consumable/ covers item use and Fractured context. Scrambled Mutation at https://steal-an-egg.github.io/mutations/scrambled/ covers the named result and its separate application route.
+
+Red Panda at https://steal-an-egg.github.io/pets/red-panda/ covers one Cherry Blossom pet. Skeleton Horse at https://steal-an-egg.github.io/pets/skeleton-horse/ and World Burner at https://steal-an-egg.github.io/pets/world-burner/ cover two Angels & Demons pet leads. All three pages keep live panel values separate from community-reported figures.
+
 Data accuracy is a core editorial rule. Exact spawn rates, prices, pet income, rarity, speed requirements, treadmill levels, mutation odds, codes and update dates are not published without verification. Empty database fields are labeled “To be verified” instead of being filled with estimates.
 
 Steal An Egg Wiki is not affiliated with Roblox Corporation or and Collect Rare Pets. All related trademarks belong to their respective owners.
