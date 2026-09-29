@@ -60,8 +60,8 @@ export function SiteFooter() {
 
         <div>
           <p className="mb-4 font-bold">Contact & Legal</p>
-          <a href={siteConfig.issuesUrl} target="_blank" rel="noopener noreferrer" className="mb-4 flex items-center gap-2 text-sm text-muted-foreground transition hover:text-primary">
-            <MessageSquareText className="h-4 w-4" aria-hidden="true" /> Report an issue
+          <a href={`mailto:${siteConfig.contactEmail}`} className="mb-4 flex items-center gap-2 text-sm text-muted-foreground transition hover:text-primary">
+            <MessageSquareText className="h-4 w-4" aria-hidden="true" /> {siteConfig.contactEmail}
           </a>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
             <Link href="/about/" className="text-muted-foreground hover:text-primary">About</Link>

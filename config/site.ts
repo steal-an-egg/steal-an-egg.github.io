@@ -9,7 +9,7 @@ export interface SiteConfig {
   domain: string;
   url: string;
   repositoryUrl: string;
-  issuesUrl: string;
+  contactEmail: string;
   author: string;
   social: {
     twitter: string;

@@ -4,7 +4,7 @@ export const siteConfig = {
   domain: "steal-an-egg.github.io",
   url: "https://steal-an-egg.github.io",
   repositoryUrl: "https://github.com/steal-an-egg/steal-an-egg.github.io",
-  issuesUrl: "https://github.com/steal-an-egg/steal-an-egg.github.io/issues/new",
+  contactEmail: "support@steal-an-egg.com",
   author: "Steal An Egg Wiki",
   social: {
     twitter: "",
