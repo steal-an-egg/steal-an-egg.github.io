@@ -56,6 +56,8 @@ const navItems: NavItem[] = [
       { label: "Titan Temple", href: "/guide/titan-temple/" },
       { label: "Dr. Scramble Boss", href: "/guide/dr-scramble-boss/" },
       { label: "Mutation Consumable", href: "/guide/mutation-consumable/" },
+      { label: "Game Revenue", href: "/guide/how-much-does-steal-an-egg-make/" },
+      { label: "Free Pets", href: "/guide/free-pets/" },
     ],
   },
   {

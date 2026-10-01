@@ -52,6 +52,10 @@ Mutations at https://steal-an-egg.github.io/mutations/ is the broad mutation hub
 
 Red Panda at https://steal-an-egg.github.io/pets/red-panda/ covers one Cherry Blossom pet. Skeleton Horse at https://steal-an-egg.github.io/pets/skeleton-horse/ and World Burner at https://steal-an-egg.github.io/pets/world-burner/ cover two Angels & Demons pet leads. All three pages keep live panel values separate from community-reported figures.
 
+Game Revenue at https://steal-an-egg.github.io/guide/how-much-does-steal-an-egg-make/ states that no verified official revenue figure is published for Steal An Egg. Public popularity metrics such as visits and player counts do not equal revenue. The page identifies the experience as Steal An Egg by and Collect Rare Pets, Place ID 107778070777162, and it does not invent dollar or Robux totals.
+
+Free Pets at https://steal-an-egg.github.io/guide/free-pets/ explains normal egg-to-pet gameplay: steal an egg, return it to the base, and hatch a pet without treating that route as a Robux pet purchase. It invents no free-pet codes and stays consistent with the codes page. Only verified acquisition routes are stated.
+
 Data accuracy is a core editorial rule. Exact spawn rates, prices, pet income, rarity, speed requirements, treadmill levels, mutation odds, codes and update dates are not published without verification. Empty database fields are labeled “To be verified” instead of being filled with estimates.
 
 Steal An Egg Wiki is not affiliated with Roblox Corporation or and Collect Rare Pets. All related trademarks belong to their respective owners.

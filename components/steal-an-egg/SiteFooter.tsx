@@ -41,6 +41,8 @@ const wikiLinks = [
   ["Red Panda", "/pets/red-panda/"],
   ["Skeleton Horse", "/pets/skeleton-horse/"],
   ["World Burner", "/pets/world-burner/"],
+  ["Game Revenue", "/guide/how-much-does-steal-an-egg-make/"],
+  ["Free Pets", "/guide/free-pets/"],
 ];
 
 export function SiteFooter() {

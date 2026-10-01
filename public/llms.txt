@@ -43,6 +43,8 @@
 - [Red Panda](https://steal-an-egg.github.io/pets/red-panda/): Cherry Blossom pet source and live rarity checks
 - [Skeleton Horse](https://steal-an-egg.github.io/pets/skeleton-horse/): Angels & Demons pet source and progression checks
 - [World Burner](https://steal-an-egg.github.io/pets/world-burner/): Angels & Demons pet source and value checks
+- [Game Revenue](https://steal-an-egg.github.io/guide/how-much-does-steal-an-egg-make/): Public revenue status, player metrics, estimate limits and developer context
+- [Free Pets](https://steal-an-egg.github.io/guide/free-pets/): Normal gameplay pet acquisition, free-to-play routes, code status and scam-safe guidance
 
 ## Accuracy policy
 
