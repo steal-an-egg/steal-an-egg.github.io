@@ -43,6 +43,12 @@ const wikiLinks = [
   ["World Burner", "/pets/world-burner/"],
   ["Game Revenue", "/guide/how-much-does-steal-an-egg-make/"],
   ["Free Pets", "/guide/free-pets/"],
+  ["Enchanted Mutation", "/mutations/enchanted/"],
+  ["Enchanted Tree", "/guide/enchanted-tree/"],
+  ["Spirit Panda", "/pets/spirit-panda/"],
+  ["Royal Skywhale", "/pets/royal-skywhale/"],
+  ["Celestial Sunlion", "/pets/celestial-sunlion/"],
+  ["Spirit World Guardian", "/pets/spirit-world-guardian/"],
 ];
 
 export function SiteFooter() {

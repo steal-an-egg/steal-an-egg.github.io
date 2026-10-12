@@ -44,6 +44,10 @@ const navItems: NavItem[] = [
       { label: "Red Panda", href: "/pets/red-panda/" },
       { label: "Skeleton Horse", href: "/pets/skeleton-horse/" },
       { label: "World Burner", href: "/pets/world-burner/" },
+      { label: "Spirit Panda", href: "/pets/spirit-panda/" },
+      { label: "Royal Skywhale", href: "/pets/royal-skywhale/" },
+      { label: "Celestial Sunlion", href: "/pets/celestial-sunlion/" },
+      { label: "Spirit World Guardian", href: "/pets/spirit-world-guardian/" },
     ],
   },
   {
@@ -55,6 +59,7 @@ const navItems: NavItem[] = [
       { label: "Hacks & Glitches", href: "/guide/hacks-glitches/" },
       { label: "Titan Temple", href: "/guide/titan-temple/" },
       { label: "Dr. Scramble Boss", href: "/guide/dr-scramble-boss/" },
+      { label: "Enchanted Tree", href: "/guide/enchanted-tree/" },
       { label: "Mutation Consumable", href: "/guide/mutation-consumable/" },
       { label: "Game Revenue", href: "/guide/how-much-does-steal-an-egg-make/" },
       { label: "Free Pets", href: "/guide/free-pets/" },
@@ -65,6 +70,7 @@ const navItems: NavItem[] = [
     href: "/mutations/",
     children: [
       { label: "All Mutations", href: "/mutations/" },
+      { label: "Enchanted Mutation", href: "/mutations/enchanted/" },
       { label: "Scrambled Mutation", href: "/mutations/scrambled/" },
     ],
   },
@@ -143,13 +149,13 @@ export function SiteHeader() {
                     <ChevronDown className={`h-4 w-4 transition ${expanded ? "rotate-180" : ""}`} aria-hidden="true" />
                   </button>
                 </div>
-                <div className={`${expanded ? "block" : "hidden"} absolute left-0 top-full min-w-52 pt-2 group-hover:block group-focus-within:block`}>
-                  <div className="rounded-xl border border-border bg-card p-2 shadow-2xl shadow-black/30">
+                <div className={`${expanded ? "block" : "hidden"} absolute left-0 top-full min-w-[208px] pt-2 group-hover:block group-focus-within:block`}>
+                  <div className="max-h-[calc(100dvh-5rem)] overflow-y-auto rounded-xl border border-border bg-card p-2 shadow-2xl shadow-black/30">
                     {item.children.map((child) => (
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block rounded-lg px-4 py-2.5 text-sm font-medium text-foreground transition hover:bg-surface-accent hover:text-primary"
+                        className="block rounded-lg px-4 py-2 text-[13px] font-medium leading-5 text-foreground transition hover:bg-surface-accent hover:text-primary"
                         onClick={() => setDesktopOpen(null)}
                       >
                         {child.label}

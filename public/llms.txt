@@ -49,3 +49,12 @@
 ## Accuracy policy
 
 The wiki does not invent egg odds, pet income, upgrade costs, code rewards or update dates. Unconfirmed values are marked as not verified.
+
+## Enchanted Forest entity and gameplay guides
+
+- [Enchanted Mutation](https://steal-an-egg.github.io/mutations/enchanted/): Named mutation and Enchanted Essence acquisition, with sourced crafting context and no fixed disputed multiplier
+- [Enchanted Tree](https://steal-an-egg.github.io/guide/enchanted-tree/): Tree location, Wisp access, interior features and troubleshooting using current evidence
+- [Spirit Panda](https://steal-an-egg.github.io/pets/spirit-panda/): Individual pet source, reported Cosmic classification and progression checks without predicted income
+- [Royal Skywhale](https://steal-an-egg.github.io/pets/royal-skywhale/): Individual pet source, reported Divine classification and fusion context without a fixed recipe or income
+- [Celestial Sunlion](https://steal-an-egg.github.io/pets/celestial-sunlion/): Individual pet source, reported Eternal classification, guardian distinction and value checks
+- [Spirit World Guardian](https://steal-an-egg.github.io/pets/spirit-world-guardian/): Fusion pet intent, reported source and rarity, with conflicting requirements and unknown base income kept explicit

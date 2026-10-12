@@ -59,3 +59,15 @@ Free Pets at https://steal-an-egg.github.io/guide/free-pets/ explains normal egg
 Data accuracy is a core editorial rule. Exact spawn rates, prices, pet income, rarity, speed requirements, treadmill levels, mutation odds, codes and update dates are not published without verification. Empty database fields are labeled “To be verified” instead of being filled with estimates.
 
 Steal An Egg Wiki is not affiliated with Roblox Corporation or and Collect Rare Pets. All related trademarks belong to their respective owners.
+
+Enchanted Mutation at https://steal-an-egg.github.io/mutations/enchanted/ owns the named mutation and tightly related Enchanted Essence intent. Current corroborated coverage connects Wisp access, the Butterfly Net, Butterfly Bloom and the tree shrine. A reported butterfly recipe is attributed; conflicting income multipliers, stacking formulas and event timers are not fixed values. No separate Essence page is created.
+
+Enchanted Tree at https://steal-an-egg.github.io/guide/enchanted-tree/ owns location, unlock, access, interior features and door troubleshooting. It publishes only current supported route information, separates Wisp quest progress from returning Wisp, and does not freeze disputed quest counts or Speed thresholds. It is separate from the dated Enchanted Forest update overview and the full mutation guide.
+
+Spirit Panda at https://steal-an-egg.github.io/pets/spirit-panda/ owns the pet and close Spirit Panda Egg source variants. Current public rosters associate the pet with Enchanted Forest and report Cosmic rarity. Exact egg-object names, hatch odds, income, spawn schedules and availability end dates are not stated without reliable evidence; predicted earnings are excluded.
+
+Royal Skywhale at https://steal-an-egg.github.io/pets/royal-skywhale/ owns the specific pet and close egg-source variants. Current public rosters report Enchanted Forest and Divine rarity; current fusion coverage also names it as a Guardian input. Exact hatch odds, income, input quantities, consumption and inheritance rules are not published as settled facts.
+
+Celestial Sunlion at https://steal-an-egg.github.io/pets/celestial-sunlion/ owns the specific pet and close egg-source variants. Current public rosters report Enchanted Forest and Eternal rarity, while walkthroughs also use the name for the forest guardian. The page separates those roles and keeps unknown income, source-object labels, odds and disputed fusion quantities unset.
+
+Spirit World Guardian at https://steal-an-egg.github.io/pets/spirit-world-guardian/ owns the fusion pet, source and progression intent. Current coverage connects it with the Enchanted Tree fusion room and reports Divine rarity. Conflicting recipes, player counts, consumption rules, mutation inheritance and modified income examples do not establish fixed requirements or a standard base income. Only supported current evidence is stated, with uncertainty made explicit.
