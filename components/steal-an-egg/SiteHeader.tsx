@@ -45,6 +45,7 @@ const navItems: NavItem[] = [
       { label: "Skeleton Horse", href: "/pets/skeleton-horse/" },
       { label: "World Burner", href: "/pets/world-burner/" },
       { label: "Spirit Panda", href: "/pets/spirit-panda/" },
+      { label: "Starry Fox", href: "/pets/starry-fox/" },
       { label: "Royal Skywhale", href: "/pets/royal-skywhale/" },
       { label: "Celestial Sunlion", href: "/pets/celestial-sunlion/" },
       { label: "Spirit World Guardian", href: "/pets/spirit-world-guardian/" },
@@ -71,6 +72,9 @@ const navItems: NavItem[] = [
     children: [
       { label: "All Mutations", href: "/mutations/" },
       { label: "Enchanted Mutation", href: "/mutations/enchanted/" },
+      { label: "Nitro Mutation", href: "/mutations/nitro/" },
+      { label: "Spectral Mutation", href: "/mutations/spectral/" },
+      { label: "Mutation Calculator", href: "/calculator/mutation/" },
       { label: "Scrambled Mutation", href: "/mutations/scrambled/" },
     ],
   },

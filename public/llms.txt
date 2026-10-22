@@ -58,3 +58,10 @@ The wiki does not invent egg odds, pet income, upgrade costs, code rewards or up
 - [Royal Skywhale](https://steal-an-egg.github.io/pets/royal-skywhale/): Individual pet source, reported Divine classification and fusion context without a fixed recipe or income
 - [Celestial Sunlion](https://steal-an-egg.github.io/pets/celestial-sunlion/): Individual pet source, reported Eternal classification, guardian distinction and value checks
 - [Spirit World Guardian](https://steal-an-egg.github.io/pets/spirit-world-guardian/): Fusion pet intent, reported source and rarity, with conflicting requirements and unknown base income kept explicit
+
+## Mutation tools and new entity guides
+
+- [Mutation Calculator](https://steal-an-egg.github.io/calculator/mutation/): Custom mutation income/multiplier calculator and two-option comparison; no fixed verified presets
+- [Spectral Mutation](https://steal-an-egg.github.io/mutations/spectral/): Halloween source, effect, reported chance and multiplier, with dated cost-change context
+- [Starry Fox](https://steal-an-egg.github.io/pets/starry-fox/): Pet source, reported rarity, income checks and current availability context
+- [Nitro Mutation](https://steal-an-egg.github.io/mutations/nitro/): Historical racing acquisition, effect, disputed multiplier and current availability checks

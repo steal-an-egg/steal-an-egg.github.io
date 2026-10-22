@@ -49,6 +49,10 @@ const wikiLinks = [
   ["Royal Skywhale", "/pets/royal-skywhale/"],
   ["Celestial Sunlion", "/pets/celestial-sunlion/"],
   ["Spirit World Guardian", "/pets/spirit-world-guardian/"],
+  ["Mutation Calculator", "/calculator/mutation/"],
+  ["Spectral Mutation", "/mutations/spectral/"],
+  ["Starry Fox", "/pets/starry-fox/"],
+  ["Nitro Mutation", "/mutations/nitro/"],
 ];
 
 export function SiteFooter() {
