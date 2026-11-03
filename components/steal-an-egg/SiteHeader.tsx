@@ -71,6 +71,8 @@ const navItems: NavItem[] = [
     href: "/mutations/",
     children: [
       { label: "All Mutations", href: "/mutations/" },
+      { label: "Alien Mutation", href: "/mutations/alien/" },
+      { label: "Musical Mutation", href: "/mutations/musical/" },
       { label: "Enchanted Mutation", href: "/mutations/enchanted/" },
       { label: "Nitro Mutation", href: "/mutations/nitro/" },
       { label: "Spectral Mutation", href: "/mutations/spectral/" },
@@ -93,6 +95,8 @@ const navItems: NavItem[] = [
     href: "/updates/",
     children: [
       { label: "Latest Updates", href: "/updates/" },
+      { label: "UFO Invasion", href: "/updates/ufo-invasion/" },
+      { label: "Alien Biome", href: "/updates/alien-biome/" },
       { label: "Sakura Event", href: "/updates/sakura-event/" },
       { label: "Monster Update", href: "/updates/monster-update/" },
       { label: "What Happened?", href: "/updates/what-happened-to-steal-an-egg/" },

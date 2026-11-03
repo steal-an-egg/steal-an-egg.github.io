@@ -53,6 +53,10 @@ const wikiLinks = [
   ["Spectral Mutation", "/mutations/spectral/"],
   ["Starry Fox", "/pets/starry-fox/"],
   ["Nitro Mutation", "/mutations/nitro/"],
+  ["UFO Invasion", "/updates/ufo-invasion/"],
+  ["Alien Mutation", "/mutations/alien/"],
+  ["Musical Mutation", "/mutations/musical/"],
+  ["Alien Biome", "/updates/alien-biome/"],
 ];
 
 export function SiteFooter() {

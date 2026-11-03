@@ -65,3 +65,11 @@ The wiki does not invent egg odds, pet income, upgrade costs, code rewards or up
 - [Spectral Mutation](https://steal-an-egg.github.io/mutations/spectral/): Halloween source, effect, reported chance and multiplier, with dated cost-change context
 - [Starry Fox](https://steal-an-egg.github.io/pets/starry-fox/): Pet source, reported rarity, income checks and current availability context
 - [Nitro Mutation](https://steal-an-egg.github.io/mutations/nitro/): Historical racing acquisition, effect, disputed multiplier and current availability checks
+
+
+## November 3, 2026 additions
+
+- [Steal An Egg UFO Invasion Guide](https://steal-an-egg.github.io/updates/ufo-invasion/): Steal An Egg UFO Invasion guide covering the UFO code, Alien Vault, Signal Decoder, UFO Debris, Alien Staff, rewards, and current event steps.
+- [Steal An Egg Alien Mutation](https://steal-an-egg.github.io/mutations/alien/): Learn about the Alien Mutation in Steal An Egg: UFO Debris, Paranoid Pete, Alien vs Abducted naming, application evidence, and reported effects.
+- [Steal An Egg Musical Mutation](https://steal-an-egg.github.io/mutations/musical/): Learn how the Musical Mutation works in Steal An Egg, including its event source, current availability, reported effects, multiplier evidence, and FAQs.
+- [Steal An Egg Alien Biome](https://steal-an-egg.github.io/updates/alien-biome/): Track the Steal An Egg Alien Biome update with the reported release date, UFO Invasion connection, access status, and details as they are announced.
