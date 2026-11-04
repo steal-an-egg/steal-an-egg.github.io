@@ -73,3 +73,9 @@ The wiki does not invent egg odds, pet income, upgrade costs, code rewards or up
 - [Steal An Egg Alien Mutation](https://steal-an-egg.github.io/mutations/alien/): Learn about the Alien Mutation in Steal An Egg: UFO Debris, Paranoid Pete, Alien vs Abducted naming, application evidence, and reported effects.
 - [Steal An Egg Musical Mutation](https://steal-an-egg.github.io/mutations/musical/): Learn how the Musical Mutation works in Steal An Egg, including its event source, current availability, reported effects, multiplier evidence, and FAQs.
 - [Steal An Egg Alien Biome](https://steal-an-egg.github.io/updates/alien-biome/): Track the Steal An Egg Alien Biome update with the reported release date, UFO Invasion connection, access status, and details as they are announced.
+
+
+## November 4, 2026 additions
+
+- [Fuse Machine](https://steal-an-egg.github.io/guide/fuse-machine/): Ordinary pet-fusion mechanic: reported requirements, outputs, risks and difference from Divine Fusion. Rules are update-sensitive; input count, same species and base location are public reports. No invented odds, cost or guaranteed output.
+- [Value Calculator](https://steal-an-egg.github.io/calculator/value/): Interactive earning-value calculator with transparent user-entered income, custom modifiers, quantity, timed earnings and two-setup comparisons. Value means earning power; example defaults, no official trade-price claim or price database.

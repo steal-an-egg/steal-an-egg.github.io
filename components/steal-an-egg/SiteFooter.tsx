@@ -57,6 +57,8 @@ const wikiLinks = [
   ["Alien Mutation", "/mutations/alien/"],
   ["Musical Mutation", "/mutations/musical/"],
   ["Alien Biome", "/updates/alien-biome/"],
+  ["Fuse Machine", "/guide/fuse-machine/"],
+  ["Value Calculator", "/calculator/value/"],
 ];
 
 export function SiteFooter() {

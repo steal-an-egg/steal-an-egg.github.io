@@ -56,6 +56,7 @@ const navItems: NavItem[] = [
     href: "/guide/",
     children: [
       { label: "Beginner Guide", href: "/guide/" },
+      { label: "Fuse Machine", href: "/guide/fuse-machine/" },
       { label: "Divine Fusion", href: "/guide/divine-fusion/" },
       { label: "Hacks & Glitches", href: "/guide/hacks-glitches/" },
       { label: "Titan Temple", href: "/guide/titan-temple/" },
@@ -80,7 +81,10 @@ const navItems: NavItem[] = [
       { label: "Scrambled Mutation", href: "/mutations/scrambled/" },
     ],
   },
-  { label: "Calculator", href: "/calculator/" },
+  { label: "Calculator", href: "/calculator/", children: [
+    { label: "Calculator Home", href: "/calculator/" },
+    { label: "Value Calculator", href: "/calculator/value/" },
+  ] },
   {
     label: "Progression",
     href: "/progression/",
