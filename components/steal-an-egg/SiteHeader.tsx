@@ -18,7 +18,8 @@ const navItems: NavItem[] = [
     label: "Eggs",
     href: "/eggs/",
     children: [
-      { label: "All Eggs", href: "/eggs/" },
+      { label: "Egg Overview", href: "/eggs/" },
+      { label: "All Eggs", href: "/eggs/all-eggs/" },
       { label: "Rare Eggs", href: "/eggs/rare-eggs/" },
       { label: "Spawn Predictor", href: "/eggs/spawn-predictor/" },
       { label: "Best Eggs", href: "/eggs/best-eggs/" },
@@ -56,6 +57,7 @@ const navItems: NavItem[] = [
     href: "/guide/",
     children: [
       { label: "Beginner Guide", href: "/guide/" },
+      { label: "Cosmic Eclipse", href: "/events/cosmic-eclipse/" },
       { label: "Fuse Machine", href: "/guide/fuse-machine/" },
       { label: "Divine Fusion", href: "/guide/divine-fusion/" },
       { label: "Hacks & Glitches", href: "/guide/hacks-glitches/" },
@@ -99,6 +101,7 @@ const navItems: NavItem[] = [
     href: "/updates/",
     children: [
       { label: "Latest Updates", href: "/updates/" },
+      { label: "Black Market", href: "/updates/black-market-dealer/" },
       { label: "UFO Invasion", href: "/updates/ufo-invasion/" },
       { label: "Alien Biome", href: "/updates/alien-biome/" },
       { label: "Sakura Event", href: "/updates/sakura-event/" },
@@ -133,7 +136,7 @@ export function SiteHeader() {
 
         <div className="hidden items-center gap-1 xl:flex">
           {navItems.map((item) => {
-            const active = pathname === item.href || pathname.startsWith(item.href);
+            const active = pathname.startsWith(item.href) || item.children?.some((child) => pathname === child.href);
             if (!item.children) {
               return (
                 <Link
@@ -161,7 +164,7 @@ export function SiteHeader() {
                     <ChevronDown className={`h-4 w-4 transition ${expanded ? "rotate-180" : ""}`} aria-hidden="true" />
                   </button>
                 </div>
-                <div className={`${expanded ? "block" : "hidden"} absolute left-0 top-full min-w-[208px] pt-2 group-hover:block group-focus-within:block`}>
+                <div className={`${expanded ? "block" : "hidden"} absolute ${item.href === "/updates/" ? "right-0" : "left-0"} top-full min-w-[208px] pt-2 group-hover:block group-focus-within:block`}>
                   <div className="max-h-[calc(100dvh-5rem)] overflow-y-auto rounded-xl border border-border bg-card p-2 shadow-2xl shadow-black/30">
                     {item.children.map((child) => (
                       <Link
@@ -193,7 +196,7 @@ export function SiteHeader() {
       </nav>
 
       {open ? (
-        <div id="mobile-navigation" className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t border-border bg-background px-4 py-4 xl:hidden">
+        <div id="mobile-navigation" className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-border bg-background px-4 py-4 xl:hidden">
           <div className="container mx-auto grid gap-1">
             {navItems.map((item) => {
               const sectionOpen = Boolean(mobileOpen[item.label]);

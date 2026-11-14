@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site";
 
 const wikiLinks = [
   ["Egg Database", "/eggs/"],
+  ["All Eggs", "/eggs/all-eggs/"],
   ["Pet Database", "/pets/"],
   ["Beginner Guide", "/guide/"],
   ["Progression", "/progression/"],
@@ -30,6 +31,8 @@ const wikiLinks = [
   ["Hacks & Glitches", "/guide/hacks-glitches/"],
   ["Codes", "/codes/"],
   ["Updates", "/updates/"],
+  ["Black Market", "/updates/black-market-dealer/"],
+  ["Cosmic Eclipse", "/events/cosmic-eclipse/"],
   ["Sakura Event", "/updates/sakura-event/"],
   ["Monster Update", "/updates/monster-update/"],
   ["What Happened to Steal An Egg?", "/updates/what-happened-to-steal-an-egg/"],
