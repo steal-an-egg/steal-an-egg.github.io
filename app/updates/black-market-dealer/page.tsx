@@ -1,4 +1,5 @@
-import { ExpansionPage, guideSectionHeading, guideSubheading } from "@/components/steal-an-egg/ExpansionPage";
+import Link from "next/link";
+import { ExpansionPage, guideSectionHeading } from "@/components/steal-an-egg/ExpansionPage";
 import { buildMetadata } from "@/lib/seo";
 
 const pathname = "/updates/black-market-dealer/";
@@ -15,7 +16,7 @@ export default function BlackMarketDealerPage() {
       description={description}
       pathname={pathname}
       crumbs={[{ label: "Updates", href: "/updates/" }, { label: "Black Market Dealer" }]}
-      summary="The Steal an Egg Black Market update introduces Slick Rick. Roblox lists the update window; individual visits have no published schedule."
+      summary="Slick Rick is the dealer in the Steal an Egg Black Market update. Roblox lists the event window. For an individual visit, look for a notice or interaction prompt that names him in your server."
       lead={(
         <section>
           <h2 className={guideSectionHeading}>Black Market Dealer Event Window</h2>
@@ -23,14 +24,18 @@ export default function BlackMarketDealerPage() {
             <div><dt className="text-muted-foreground">Listed start (UTC)</dt><dd className="mt-1 font-semibold"><time dateTime="2026-11-14T15:00:58.120Z">Nov 14, 2026 at 15:00</time></dd></div>
             <div><dt className="text-muted-foreground">Listed end (UTC)</dt><dd className="mt-1 font-semibold"><time dateTime="2026-11-16T17:00:58.120Z">Nov 16, 2026 at 17:00</time></dd></div>
           </dl>
-          <p className="mt-4 text-sm leading-6 text-muted-foreground">These are the dates on the Roblox listing. They do not tell you when the dealer will be in your server.</p>
+          <p className="mt-4 text-sm leading-6 text-muted-foreground">Roblox gives start and end times for the update. The listing gives no schedule for Slick Rick’s visits.</p>
           <a className="seo-link mt-3 inline-block" href={eventUrl}>Check the Roblox event listing</a>
         </section>
       )}
       faqTitle="Black Market Dealer FAQ"
       faqs={[
-        { question: "Does Slick Rick appear at the listed start time?", answer: "The listed time is when the Roblox event window opens. The preview does not give a time for Slick Rick’s first visit." },
-        { question: "Is there a Black Market restock timer?", answer: "The Roblox preview gives no restock schedule, repeat interval or visit length." },
+        { question: "When does Slick Rick appear?", answer: "The preview gives no time for his first visit or any later visits. Check your server for a notice naming him." },
+        { question: "Is there a Black Market restock timer?", answer: "Roblox lists no restock interval. Follow a refresh timer if the open shop displays one." },
+        { question: "Where is the Black Market Dealer?", answer: "The event preview gives no location. Follow a current marker if the game shows one for Slick Rick." },
+        { question: "Does the Black Market use a special currency?", answer: "The preview names no currency. Check the label next to the price in the shop." },
+        { question: "Are Black Market items always the same?", answer: "The preview gives no rotation policy. Read the stock shown for your visit before planning what to buy." },
+        { question: "Can Slick Rick appear after the event ends?", answer: "Roblox gives the listing’s end date. The preview leaves availability after that date open." },
       ]}
       related={[
         { href: "/updates/alien-biome/", label: "Alien Biome update" },
@@ -39,15 +44,32 @@ export default function BlackMarketDealerPage() {
       ]}
     >
       <section className="space-y-3">
-        <h2 className={guideSectionHeading}>Who Is Slick Rick in Steal an Egg?</h2>
-        <p>Slick Rick is the Black Market Dealer named in the Roblox event preview. The preview says he comes and goes on his own schedule. It gives no spawn location, so check for an in-game announcement or map marker before traveling to a spot named in an older guide.</p>
-        <h3 className={guideSubheading}>How to check for the dealer</h3>
-        <p>Use the Roblox event page for changes to the listed dates. Once you join the game, use any dealer prompt you can see in your own session to decide where to go.</p>
+        <h2 className={guideSectionHeading}>How the Black Market Dealer Works</h2>
+        <p>The Roblox preview describes Slick Rick as an occasional visitor. The start time tells you when Roblox has scheduled the update to open. His arrival and how long he stays are separate details that the listing leaves open.</p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className={guideSectionHeading}>Where to Look for Slick Rick</h2>
+        <p>When you join, scan the server announcements. If you see Slick Rick named in a notice, follow any directions or matching map marker the game displays. A location shown in an older guide may reflect a previous visit or update.</p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className={guideSectionHeading}>What to Check When the Dealer Appears</h2>
+        <ol className="list-decimal space-y-1 pl-5">
+          <li>Confirm that the interaction or shop panel names Slick Rick or the Black Market Dealer.</li>
+          <li>Look for an in-stock item, then check its price and the currency next to it.</li>
+          <li>Read any purchase limit, refresh notice or time remaining shown on that panel.</li>
+        </ol>
       </section>
 
       <section className="space-y-3">
         <h2 className={guideSectionHeading}>Black Market Items and Prices</h2>
-        <p>The event preview does not list any stock, prices, currency or rewards. If you find Slick Rick, check his shop panel for the item name and currency before spending anything.</p>
+        <p>The Roblox event preview has no item or price list. An older screenshot only records what its player saw at the time. Check the current offer before saving or spending currency, since prices and availability may change with updates.</p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className={guideSectionHeading}>Black Market Dealer vs Regular Egg Sources</h2>
+        <p>The Black Market depends on a visit from Slick Rick. For eggs tied to a biome, shop, or reward, use the <Link href="/eggs/all-eggs/" className="seo-link">All Eggs list</Link> to check the documented source.</p>
       </section>
     </ExpansionPage>
   );
